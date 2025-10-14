@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Alebrije Home</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="img/Logo.jpg" type="image/png" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Swiper CSS -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+
+  <!-- Tu JS, defer para que cargue después -->
+  <script src="script.js" defer></script>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+</head> 
+<body>
+
+  <!-- ENCABEZADO -->
+  <header>
+    <div class="logo-container">
+      <img src="img/Encabezado.png" alt="Logo Alebrije Home" class="logo" />
+    </div>
+
+    <button class="menu-toggle" aria-label="Abrir menú">&#9776;</button>
+
+    <nav class="main-nav">
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#conoce-mas">Conoce más</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#habitaciones">Elige tu habitación</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#quienes-somos">Quiénes somos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO / BIENVENIDA -->
+  <section class="hero" id="inicio">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1>Bienvenidos a Alebrije Home: Un refugio mágico en México</h1>
+      <p>Un refugio cálido, auténtico y lleno de encanto donde cada rincón cuenta una historia. Vive la experiencia de hospedarte en un lugar con alma.</p>
+    </div>
+  </section>
+
+  <!-- CONOCE MÁS -->
+<section id="conoce-mas" class="section">
+  <div class="content">
+    <h2>Conoce más</h2>
+    <p>Alebrije Home es un hostal boutique que fusiona tradición y confort. Cada habitación y espacio ha sido cuidadosamente diseñado para brindarte una experiencia única.</p>
+    <p>Vive  la mejor etapa de tu vida en una de las Ciudades con más museos en el mundo, la más grande de Latino América y la más majestuosa en tradiciones. Elige una de las zonas más seguras y cómodas, teniendo a la mano todo lo que necesitas; Universidades, centros comerciales, mercados típicos de nuestro país, arquitectura, flores y patrimonio cultural a solo unos minutos de tu nuevo hogar. </p>
+    <img src="img/Logo-3.jpg" alt="Imagen de Alebrije Home" class="section-image" />
+  </div>
+</section>
+
+<!-- GALERÍA -->
+<section id="galeria" class="section">
+  <div class="content">
+    <h2>Galería</h2>
+    <div class="swiper gallery-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="img/galeria-1.jpg" alt="Galería 1"></div>
+          <div class="swiper-slide"><img src="img/galeria-4.jpg" alt="Galería 2"></div>
+          <div class="swiper-slide"><img src="img/galeria-6.jpg" alt="Galería 3"></div>
+          <div class="swiper-slide"><img src="img/galeria-2.jpg" alt="Galería 4"></div>
+          <div class="swiper-slide"><img src="img/galeria-3.jpg" alt="Galería 5"></div>
+          <div class="swiper-slide"><img src="img/galeria-5.jpg" alt="Galería 6"></div>
+          <div class="swiper-slide"><img src="img/galeria-7.jpg" alt="Galería 7"></div>
+          <div class="swiper-slide"><img src="img/conoce-mas.png" alt="Galería 8"></div>
+          <div class="swiper-slide"><img src="img/galeria-8.jpg" alt="Galería 9"></div>
+        </div>
+        <!-- navegación y paginación -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+  </div>
+</section>
+
+<!-- ELIGE TU HABITACIÓN -->
+<section id="habitaciones" class="section">
+  <div class="content">
+    <h2>Elige tu habitación</h2>
+    <p>Ofrecemos habitaciones acogedoras con todas las comodidades para una estancia relajante.</p>
+    <p>Para reservar comunicate a los siguientes números de WhatsApp o envianos correo...</p>
+    
+    <div class="contact-box">
+      <p><strong>📞 WhatsApp:</strong> <a href="https://wa.me/526121378717" target="_blank">+52 612 137 8717</a></p>
+      <p><strong>📞 WhatsApp:</strong> <a href="https://wa.me/525534560155" target="_blank">+52 55 3456 0155</a></p>
+      <p><strong>✉️ Email:</strong> <a href="mailto:alebrijehomecdmx@gmail.com">alebrijehomecdmx@gmail.com</a></p>
+    </div>
+
+        <!-- Habitación 1 -->
+        <div class="swiper rooms-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="room-card">
+              <img src="img/habitacion1.png" alt="Baño compartido">
+              <h3>Sencilla con baño compartido</h3>
+              <p>$5,380 MXN</p>
+            </div>
+          </div>
+
+        <!-- Habitación 2 -->
+        <div class="swiper-slide">
+            <div class="room-card">
+              <img src="img/habitacion2.png" alt="Baño privado">
+              <h3>Sencilla con baño privado</h3>
+              <p>$7,380 MXN</p>
+            </div>
+          </div>
+
+        <!-- Habitación 3 -->
+        <div class="swiper-slide">
+            <div class="room-card">
+              <img src="img/habitacion3.png" alt="Balcón privado">
+              <h3>Sencilla con baño y balcón privado</h3>
+              <p>$8,380 MXN</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    
+  </div>
+</section>
+
+<!-- SERVICIOS -->
+<section id="servicios" class="section servicios">
+  <div class="content">
+    <h2>Servicios</h2>
+    <p>
+      En Alebrije Home, cada habitación está amueblada y lista para brindarte una estancia cómoda y funcional. Solo preocúpate por disfrutar tu experiencia.
+    </p>
+    <p>
+      Todos los servicios están incluidos, así como áreas comunes equipadas para tu comodidad. También contamos con opciones adicionales si lo necesitas.
+    </p>
+
+    <div class="servicios-lists">
+      <div class="list">
+        <h4>Incluye:</h4>
+        <ul>
+          <li>✅ WiFi gratuito</li>
+          <li>✅ Agua, luz y gas</li>
+          <li>✅ Vigilancia</li>
+          <li>✅ Limpieza</li>
+          <li>✅ Recepción</li>
+        </ul>
+      </div>
+      <div class="list">
+        <h4>Áreas comunes:</h4>
+        <ul>
+          <li>🍽️ Cocina</li>
+          <li>📺 Sala con TV</li>
+          <li>🌿 Terraza</li>
+          <li>🛋️ Área de descanso</li>
+          <li>🪑 Comedor</li>
+        </ul>
+      </div>
+      <div class="list">
+        <h4>Con costo adicional:</h4>
+        <ul>
+          <li>🧺 Lavandería</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- GALERÍA -->
+    <section id="galeria" class="section">
+      <div class="content">
+        <div class="swiper gallery-swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="img/Foto-2.jpg" alt="Galería 1"></div>
+              <div class="swiper-slide"><img src="img/Foto-6.jpg" alt="Galería 2"></div>
+              <div class="swiper-slide"><img src="img/Foto-5.jpg" alt="Galería 3"></div>
+              <div class="swiper-slide"><img src="img/Foto-4.jpg" alt="Galería 4"></div>
+              <div class="swiper-slide"><img src="img/Foto-1.jpg" alt="Galería 5"></div>
+              <div class="swiper-slide"><img src="img/Foto-3.jpg" alt="Galería 6"></div>
+            </div>
+            <!-- navegación y paginación -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+      </div>
+    </section>
+  </div>
+</section>
+
+<section id="servicios" class="section servicios">
+  <div class="content">
+    <h2>Acompañeme a dar un recorrido para conocer el lugar...</h2>
+  </div>
+  </section>
+
+<!-- Video -->
+<video class="video" autoplay muted loop playsinline>
+  <source src="img/Recorrido.mp4" type="video/mp4">
+</video>
+
+
+
+
+<!-- QUIÉNES SOMOS -->
+<section id="quienes-somos" class="section">
+  <div class="content">
+    <h2>¿Quiénes somos?</h2>
+    <p>Somos una familia apasionada por la hospitalidad. Alebrije Home nace del deseo de compartir nuestro hogar con viajeros que buscan un lugar cálido y auténtico.</p>
+    <p>Recinto acuñado en uno de los vecindarios más tranquilos y seguros de CDMX. Construido y trabajado por 3 generaciones de mujeres que han convertido una casa familiar en el hogar de muchisímas personas de todas partes de nuestro país y el mundo.</p>
+    <img src="img/Familia.jpg" alt="Familia">
+  </div>
+</section>
+
+<!-- CONTACTO -->
+<section id="contacto" class="section">
+  <div class="content">
+    <h2>Contacto</h2>
+    <p>¿Tienes dudas o deseas reservar? Contáctanos directamente.</p>
+
+    <p><strong>📞 WhatsApp:</strong> <a href="https://wa.me/526121378717" target="_blank">+52 612 137 8717</a></p>
+    <p><strong>📞 WhatsApp:</strong> <a href="https://wa.me/525534560155" target="_blank">+52 55 3456 0155</a></p>
+    <p><strong>✉️ Email:</strong> <a href="mailto:alebrijehomecdmx@gmail.com">alebrijehomecdmx@gmail.com</a></p>
+    <h2>¿Dónde estamos ubicados?</h2>
+    <p>📍 Alpina 11, Tizapán San Ángel, Tizapán, Álvaro Obregón, 01090 Ciudad de México, CDMX</p>
+    
+    <!-- Mapa de Google Maps -->
+    <div class="map-container">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d104053.42326152758!2d-99.31138346938775!3d19.329003507075612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d201cfb1436a5f%3A0x8a793fd2eb79fecc!2sCasa%20Magda!5e0!3m2!1ses-419!2smx!4v1759692689050!5m2!1ses-419!2smx" 
+      width="600" 
+      height="450" 
+      style="border:0;" 
+      allowfullscreen="" 
+      loading="lazy" 
+      referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </div>
+</section>
+
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-content">
+      <p class="footer-message">Gracias por considerar a Alebrije Home, tu hogar lejos de casa.</p>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Alebrije Home. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+  const menuToggle = document.querySelector('.menu-toggle');
+  const navMenu = document.querySelector('.main-nav ul');
+
+  menuToggle.addEventListener('click', () => {
+    navMenu.classList.toggle('show');
+  });
+</script>
+</body>
+</html>
