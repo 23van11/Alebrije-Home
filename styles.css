@@ -1,5 +1,6 @@
 :root {
-  --color-fondo: #1A0F1A;       
+  /* Oculta el menú en pantallas pequeñas --color-fondo: #1A0F1A;  */
+  --color-fondo: #720a61;
   --color-primario: #E53D73;    
   --color-secundario: #32C6C1;  
   --color-acento: #F8B400;      
@@ -238,6 +239,23 @@ header {
 
 /* Habitaciones */
 
+.btn-reservar {
+  display: inline-block;
+  background-color: #25D366;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-reservar:hover {
+  background-color: #1ebe5b;
+}
+
+
 #habitaciones h2 {
   font-family: 'Playfair Display', serif;
   font-size: 2.8rem;
@@ -334,6 +352,12 @@ header {
   margin: 0;
   font-weight: 600;
 }
+
+.room-card p.precio {
+  color: #2c1400 !important;
+}
+
+
 
 /* Swiper navigation buttons */
 .rooms-swiper .swiper-button-next,
@@ -516,7 +540,6 @@ header {
 
 /* QUIÉNES SOMOS */
 #quienes-somos {
-  background-color: #241326;
   color: var(--color-texto);
   padding: 60px 20px;
   text-align: center;
